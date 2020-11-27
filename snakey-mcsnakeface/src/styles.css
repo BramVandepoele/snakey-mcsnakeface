@@ -1,0 +1,54 @@
+/* Application-wide Styles */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+h1 {
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 375%;
+  text-align: center;
+  width: 100%;
+  background-color: #6F986F;
+  height: 100px;
+  margin: 0;
+
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+}
+nav a{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 150%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 33.3%;
+  border: none;
+  text-decoration: none;
+  background-color: #696969;
+  color: white;
+  padding-top: 2px;
+}
+nav a:hover, nav a:active{
+  background-color: darkgrey;
+  font-size: 1.75em;
+}
+body {
+  margin: 0em;
+  padding: 0;
+  background-color: lightgray;
+}
+body, input[type="text"], button {
+  color: #333;
+  font-family: Cambria, Georgia;
+}
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}/* You can add global styles to this file, and also import other style files */

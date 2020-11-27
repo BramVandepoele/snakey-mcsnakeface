@@ -1,0 +1,33 @@
+h2{
+  text-align: center;
+}
+
+ul{
+  width: 100%;
+}
+li {
+  display: flex;
+  float: left;
+  justify-content: space-evenly;
+  background-color: darkgrey;
+  width: 250px;
+  border-radius: 15px;
+  height: 150px;
+  margin: 15px;
+}
+
+li:hover, li:active{
+  background-color: #B5B5B5;
+}
+
+li div{
+  margin: auto;
+}
+
+div{
+  display: block;
+}
+
+div p, div h3{
+  text-align: center;
+}

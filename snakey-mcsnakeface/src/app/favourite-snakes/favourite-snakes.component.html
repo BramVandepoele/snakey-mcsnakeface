@@ -1,0 +1,13 @@
+<h2>These are my favourite snakes:</h2>
+<div>
+  <ul>
+    <li *ngFor="let snake of snakes" (click)="onSelect(snake)">
+      <div>
+        <h3>{{snake.id}}. {{snake.name}}</h3>
+        <p>{{snake.latinName}}</p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<app-snake-detail [snake]="selectedSnake"></app-snake-detail>

@@ -1,0 +1,10 @@
+<div *ngIf="snake">
+  <h2>{{snake.name | uppercase}}</h2>
+  <div>
+    <span>ranking: </span>{{snake.id}}
+    <p>latin name: {{snake.latinName}}</p>
+    <img src={{snake.imageUrl}} alt="picture" width="500">
+  </div>
+  <a href={{snake.wikipediaUrl}} target="_blank">Learn more!</a>
+  <br/>
+</div>
